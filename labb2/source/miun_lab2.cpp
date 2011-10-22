@@ -40,7 +40,6 @@ int main() {
 				printPersons(person, super);
 				break;
 			case 3:
-				delete []person;
 				return 0;
 				break;
 			default:
@@ -48,7 +47,6 @@ int main() {
 		}
 	}
 
-	delete []person;
 	return 0;
 }
 
